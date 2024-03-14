@@ -110,9 +110,9 @@
 		<div id="carousel">
 			<div id="myCarousel" class="carousel slide">
 				<div class="carousel-inner">
-					<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/home3.jpg" class="carousel"></div>
-					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner2.jpg" class="carousel"></div>
-					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner3.jpg" class="carousel"></div>
+					<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/ip2.jpg" class="carousel"></div>
+					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/cutting.jpg" class="carousel"></div>
+					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/F1.png" class="carousel"></div>
 				</div>
 					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>

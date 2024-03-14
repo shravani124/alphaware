@@ -170,7 +170,7 @@
 	<br />
 	<div id="footer">
 		<div class="foot">
-			<label style="font-size:17px;"> Copyrght &copy; </label>
+			<label style="font-size:17px;"> Copyright &copy; </label>
 			<p style="font-size:25px;">Trimurti Tools 2015</p>
 		</div>
 			
