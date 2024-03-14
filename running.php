@@ -142,7 +142,12 @@
 						}else{
 							echo "<div class='float'>";
 							echo "<center>";
-							echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='photo/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
+							//echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='photo/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
+							//echo "".$fetch['product_name']."";
+
+
+							echo "<a href='details.php?id=".$fetch['product_id']."'><img src='photo/p2.jpg' alt='image' height='100px' width='100px' >
+							</a>";
 							echo "".$fetch['product_name']."";
 							echo "<br />";
 							echo "Rs ".$fetch['product_price']."";

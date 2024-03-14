@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AlphaWare</title>
+	<title>Trimurti Tools</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -26,8 +26,7 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>alphaware</label>
+		<label>Trimurti Tools</label>
 			
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -99,32 +98,25 @@
 				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Product</a></li>
 				<li><a href="aboutus1.php">   <i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
-				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
-				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 	</div>
-		<img src="img/about1.jpg" style="width:1150px; height:250px; border:1px solid #000; ">
 	<br />
 	<br />
 	
 
 	<legend>About Us</legend>
-		<div id="content">
-			<legend><h3>Mission</h3></legend>
-					<h4 style="text-indent:60px;">To provide a high quality footwear that suit the athletes style and to be one of the leading sports footwear apparel in the country.</h4>
-			<br />
-				<legend><h3>Vision</h3></legend>
-					<h4 style="text-indent:60px;">Alphaware, the company that inspire, motivate, and give determination to the sports enthusiast.</h4>
-			<br />
-				
+	<div id="content">
+			<p>  Email -: trimurtitools@gmail.com <br />
+			Location -: Mumbai </p>
 		</div>
+	<br />
 	<br />
 </div>
 	<br />
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-size:25px;">Alphaware Inc. 2015</p>
+			<p style="font-size:25px;">Trimurti Tools. 2015</p>
 		</div>
 			
 			<div id="foot">
@@ -133,7 +125,6 @@
 						<a href="http://www.facebook.com/alphaware"><li>Facebook</li></a>
 						<a href="http://www.twitter.com/alphaware"><li>Twitter</li></a>
 						<a href="http://www.pinterest.com/alphaware"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/alphaware"><li>Tumblr</li></a>
 					</ul>
 			</div>
 	</div>

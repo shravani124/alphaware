@@ -168,13 +168,13 @@ if (isset($_SESSION['cart']))
 	
 	
 		echo "<tr class='table'>";
-		echo "<td><h4><img height='70px' width='70px' src='photo/".$image."'></h4></td>";
+		echo "<td><h4><img height='70px' width='70px' src='photo/p2.jpg".$image."'></h4></td>";
 		echo "<td><h4><input type='hidden' required value='".$id."' name='pid[]'> ".$name."</h4></td>";
 		echo "<td><h4><input type='hidden' required value='".$x."' name='qty[]'> ".$x."</h4></td>";
 		echo "<td><h4>".$price."</h4></td>";
 		echo "<td><h4><a href='cart.php?id=".$id."&action=add'><i class='icon-plus-sign'></i></a></td>";
 		echo "<td><h4><a href='cart.php?id=".$id."&action=remove'><i class='icon-minus-sign'></i></a></td>";
-		echo "<td><strong><h3>P ".$line_cost."</h3></strong>";
+		echo "<td><strong><h3>Rs ".$line_cost."</h3></strong>";
 		echo "</tr>";
 		}
 		

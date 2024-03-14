@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AlphaWare</title>
+	<title>Trimurti Tools</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -26,8 +26,7 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>alphaware</label>
+		<label>Trimurti Tools</label>
 			
 			<?php
 				/*$id = (int) $_SESSION['id'];
@@ -166,7 +165,6 @@ if (isset($_SESSION['cart']))
 	$name=substr($name,0,40);
 	$price=$myrow['product_price'];
 	$image=$myrow['product_image'];
-	$product_size=$myrow['product_size'];
 	$line_cost=$price*$x;
 	$total=$total+$line_cost;
 	
@@ -174,7 +172,6 @@ if (isset($_SESSION['cart']))
 		echo "<tr class='table'>";
 		echo "<td><h4><img height='70px' width='70px' src='photo/".$image."'></h4></td>";
 		echo "<td><h4><input type='hidden' required value='".$id."' name='pid[]'> ".$name."</h4></td>";
-		echo "<td><h4>".$product_size."</h4></td>";
 		echo "<td><h4><input type='hidden' required value='".$x."' name='qty[]'> ".$x."</h4></td>";
 		echo "<td><h4>".$price."</h4></td>";
 		echo "<td><h4><a href='cart.php?id=".$id."&action=add'><i class='icon-plus-sign'></i></a></td>";
@@ -237,7 +234,7 @@ if (isset($_SESSION['cart']))
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Alphaware Inc. 2015</p>
+			<p style="font-size:25px;">Trimurti Tools 2015</p>
 		</div>
 			
 			<div id="foot">
@@ -246,7 +243,7 @@ if (isset($_SESSION['cart']))
 						<a href="http://www.facebook.com/alphaware"><li>Facebook</li></a>
 						<a href="http://www.twitter.com/alphaware"><li>Twitter</li></a>
 						<a href="http://www.pinterest.com/alphaware"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/alphaware"><li>Tumblr</li></a>
+
 					</ul>
 			</div>
 

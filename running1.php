@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AlphaWare</title>
+	<title>Trimurti Tools</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script src="js/bootstrap.js"></script>
@@ -25,8 +25,7 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>alphaware</label>
+		<label>Trimurti Tools</label>
 		
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -101,18 +100,17 @@
 				<li><a href="product1.php"><i class="icon-th-list"></i>Product</a>
 				<li><a href="aboutus1.php"><i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
-				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
-				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
+
 			</ul>
 		</div>
 		
 		<div class="nav1">
 			<ul>
-				<li><a href="product1.php">Basketball</a></li>
+				<li><a href="product1.php">Hammer</a></li>
 				<li>|</li>
-				<li><a href="football1.php">Football</a></li>
+				<li><a href="football1.php">CNC</a></li>
 				<li>|</li>
-				<li><a href="running1.php" class="active" style="color:#111;">Running</a></li>
+				<li><a href="running1.php" class="active" style="color:#111;">V Cut</a></li>
 			</ul>
 				<a href="cart.php"><button class="btn btn-inverse" style="right:1%; position:fixed; top:10%;"><i class="icon-shopping-cart icon-white"></i> View Cart</button></a>
 		</div>
@@ -140,12 +138,15 @@
 						}else{
 							echo "<div class='float'>";
 							echo "<center>";
-							echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='photo/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
+							//echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='photo/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
+							//echo "".$fetch['product_name']."";
+
+							echo "<a href='details.php?id=".$fetch['product_id']."'><img src='photo/p2.jpg' alt='image' height='100px' width='100px' >
+							</a>";
 							echo "".$fetch['product_name']."";
 							echo "<br />";
-							echo "P ".$fetch['product_price']."";
+							echo "Rs ".$fetch['product_price']."";
 							echo "<br />";
-							echo "<h3 class='text-info' style='position:absolute; margin-top:-90px; text-indent:15px;'> Size: ".$fetch['product_size']."</h3>";
 							echo "</center>";
 							echo "</div>";
 						}

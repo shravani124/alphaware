@@ -110,7 +110,11 @@
 		?>
 				<div>
 					<center>
-						<img class="img-polaroid" style="width:400px; height:350px;" src="photo/<?php echo $row['product_image']; ?>">
+						<!-- <img class="img-polaroid" style="width:400px; height:350px;" src="photo/<?php echo $row['product_image']; ?>">
+						<h2 class="text-uppercase bg-primary"><?php echo $row['product_name']?></h2> -->
+
+
+						<img class="img-polaroid" style="width:400px; height:350px;" src="photo/p2.jpg">
 						<h2 class="text-uppercase bg-primary"><?php echo $row['product_name']?></h2>
 						<h3 class="text-uppercase">Rs.<?php echo $row['product_price']?></h3>
 						<?php echo "<a href='cart.php?id=".$id."&action=add'><input type='submit' class='btn btn-inverse' name='add' value='Add to Cart'></a> &nbsp;  <a href='product1.php'><button class='btn btn-inverse'>Back</button></a> " ?>

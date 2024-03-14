@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AlphaWare</title>
+	<title>Trimurti Tools</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -29,8 +29,7 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>alphaware</label>
+		<label>Trimurti Tools</label>
 			
 			<?php
 				//$id = (int) $_SESSION['id'];
@@ -133,17 +132,8 @@
 						<input type="hidden" name="product_name" value="<?php echo $row['product_name']?>">
 						<input type="hidden" value="<?php echo $fetch['firstname'];?>&nbsp;<?php echo $fetch['lastname'];?>" name="customer">
 						<textarea name="destination" placeholder="Destination" style="height:100px; width:250px;" required></textarea>
-						<select name="size" required style="width:150px;">
-							<option value="">---------Size----------</option>
-							<option value="7">7</option>
-							<option value="8">8</option>
-							<option value="9">9</option>
-							<option value="10">10</option>
-							<option value="11">11</option>
-							<option value="12">12</option>
-						</select>
 						<br />
-						<h4>Total: P <?php echo $row['product_price']; ?> </h4>
+						<h4>Total: Rs <?php echo $row['product_price']; ?> </h4>
 						<br />
 						<input type="checkbox" required> I Agree the <a href="#terms" data-toggle="modal"> Terms and Condition</a> of AlphaWare Inc.
 					</center>
@@ -161,12 +151,10 @@
 		<div id="terms" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-				<h3 id="myModalLabel">AlphaWare Inc. Terms and Condition</h3>
+				<h3 id="myModalLabel">Trimurti Tools Terms and Condition</h3>
 			</div>
 				<div class="modal-body">
 					<ul>
-						<li>You are guaranteed that your product will be deliver 2-3 days upon ordering.</li>
-						<li>Guaranteed time maybe suspended depending on the weather conditions for the safety of our delivery personnel.</li>
 						<li>All prices quoted are in Philippine pesos. Price and availability information is subject to change without notice.</li>
 						<li>Mode of payment are as follows:customers with paypal account can pay through paypal otherwise Cash on Delivery(COD).</li>
 						<li>Upon receiving your product we will charge for delivering for only 150 pesos, depending on the location.</li>
@@ -188,7 +176,7 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Alphaware Inc. 2015</p>
+			<p style="font-size:25px;">Trimurti Tools. 2015</p>
 		</div>
 			
 			<div id="foot">
@@ -197,7 +185,6 @@
 						<a href="http://www.facebook.com/alphaware"><li>Facebook</li></a>
 						<a href="http://www.twitter.com/alphaware"><li>Twitter</li></a>
 						<a href="http://www.pinterest.com/alphaware"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/alphaware"><li>Tumblr</li></a>
 					</ul>
 			</div>
 	</div>

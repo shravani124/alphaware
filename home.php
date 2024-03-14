@@ -120,8 +120,11 @@
 		</div>
 		
 		<div id="product" style="position:relative; margin-top:30%;">
-			<center><h2><legend>Featured Items</legend></h2></center>
+			<center><h2><legend>Feature Items</legend></h2></center>
 			<br />
+			
+
+
 			
 			<?php 
 				
@@ -141,12 +144,15 @@
 						}else{
 							echo "<div class='float'>";
 							echo "<center>";
-							echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='photo/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
+							// echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='photo/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
+							// echo "".$fetch['product_name']."";
+
+							echo "<a href='details.php?id=".$fetch['product_id']."'><img src='photo/p2.jpg' alt='image' height='100px' width='100px' >
+							</a>";
 							echo "".$fetch['product_name']."";
 							echo "<br />";
-							echo "P ".$fetch['product_price']."";
+							echo "Rs ".$fetch['product_price']."";
 							echo "<br />";
-							echo "<h3 class='text-info' style='position:absolute; margin-top:-90px; text-indent:15px;'> Size: ".$fetch['product_size']."</h3>";
 							echo "</center>";
 							echo "</div>";
 						}
